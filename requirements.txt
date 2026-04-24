@@ -1,0 +1,45 @@
+# Core
+python-dotenv==1.0.1
+pyyaml==6.0.2
+
+# Data
+pandas==2.2.2
+numpy==1.26.4
+
+# Visualization
+matplotlib==3.9.2
+seaborn==0.13.2
+plotly==5.24.1
+
+# Classical ML
+scikit-learn==1.5.2
+imbalanced-learn==0.12.4
+
+# Gradient boosting
+xgboost==2.1.1
+lightgbm==4.5.0
+
+# Hyperparameter tuning
+optuna==4.0.0
+
+# Explainability
+shap==0.46.0
+
+# Experiment tracking
+mlflow==2.16.2
+
+# Serialization
+joblib==1.4.2
+
+# App
+streamlit==1.39.0
+
+# Dev / testing
+pytest==8.3.3
+# Note: we install only ipykernel (not the full `jupyter` meta-package) because
+# VS Code's Jupyter extension provides the notebook UI. Installing full jupyter
+# can fail on Windows due to the 260-char path limit (long labextensions paths).
+ipykernel==6.29.5
+nbformat==5.10.4
+black==24.10.0
+ruff==0.6.9
